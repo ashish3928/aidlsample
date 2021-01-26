@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleApp">
-        <activity android:name=".MainActivity" />
+        <activity android:name=".ReflectionActivity" />
+        <activity android:name=".AIDLActivity" />
         <activity android:name=".RecyclerViewActivity" />
 
         <service

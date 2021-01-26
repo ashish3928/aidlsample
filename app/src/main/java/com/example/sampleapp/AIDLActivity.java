@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class AIDLActivity extends AppCompatActivity {
 
     private IDataAidlInterface myService;
     private boolean isConnected = false;
