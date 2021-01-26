@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recived data : " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INIT"
+            android:id="@+id/textView" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send data : " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INIT"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="connect"/>
+
+    <Button
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disconnect"/>
+
+    <Button
+        android:id="@+id/sendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sendData"/>
+
+    <Button
+        android:id="@+id/reciveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recieveData"/>
+
+</LinearLayout>
