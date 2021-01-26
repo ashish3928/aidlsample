@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleApp">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RecyclerViewActivity" />
+
         <service
-            android:process=":service"
             android:name=".MyService"
             android:enabled="true"
-            android:exported="false" />
+            android:exported="false"
+            android:process=":service" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
