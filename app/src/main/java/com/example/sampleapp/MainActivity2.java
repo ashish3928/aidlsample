@@ -14,13 +14,12 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
         Button button1 = findViewById(R.id.button1);
         Button button2 = findViewById(R.id.button2);
+        Button button3 = findViewById(R.id.button3);
 
-        button1.setOnClickListener(v -> {
-             startActivity(new Intent(this, AIDLActivity.class));
-        });
+        button1.setOnClickListener(v -> startActivity(new Intent(this, AIDLActivity.class)));
 
-        button2.setOnClickListener(v -> {
-            startActivity(new Intent(this, RecyclerViewActivity.class));
-        });
+        button2.setOnClickListener(v -> startActivity(new Intent(this, RecyclerViewActivity.class)));
+
+        button3.setOnClickListener(v -> startActivity(new Intent(this, ReflectionActivity.class)));
     }
 }
